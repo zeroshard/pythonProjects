@@ -24,5 +24,6 @@ label = Label(text=f"Player {player}'s turn")
 label.pack(side=TOP)
 
 reset_button = Button(text="restart", command=new_game)
+reset_button.pack(side=TOP)
 
 window.mainloop()
